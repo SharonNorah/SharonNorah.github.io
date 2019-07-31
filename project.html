@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>RFID- based CMS</title>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+          </div>
+          <div class="flex-item flex-column">
+          </div>
+           <div class="flex-item flex-column">
+            <p class="text text-large">
+              <a target="_blank" href="javascript:void(0)">Akol Sharon Norah</a>, akolsharonnorah@gmail.com<br>
+              <a target="_blank" href="javascript:void(0)">Chekwech Emmanuel Isaiah</a>, chekmasaiah95@gmail.com<br>
+              <a target="_blank" href="javascript:void(0)">Nalutaaya Viola</a>, husbatnalutaaya@gmail.com<br>
+              <a target="_blank" href="javascript:void(0)">CoCIS</a><br>
+              <a target="_blank" href="javascript:void(0)">MAKERERE UNIVERSITY</a><br>
+              <a target="_blank" href="javascript:void(0)">P.O. Box 7062</a><br>
+              <a target="_blank" href="javascript:void(0)">Kampala, Uganda</a>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+             <h2 class="add-top-margin">RFID-based Child Monitoring System</h2>
+            <h2 class="add-top-margin">Introduction</h2>
+            <hr>
+      </div>
+      <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text add-top-margin">
+              One of the biggest problems nowadays in homes is increasing rates at which infants are being injured due to accessing areas that are dangerous to them and it is high time to offer a safety support system for the infants in every home area. This paper focuses on implementing the RFID-based children Monitoring System for every child at home.
+
+            </p>
+          </div>
+        </div>
+        <!--End Intro-->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">User challenge</h2>
+            <hr>
+            <p class="text">
+              A parent is a caretaker of a child. Being parent means you have a responsibility of taking care of your children. However children at infant stages are there infant stages are a bit difficult to monitor for example a parent can be busy with work some where and the child crowls to a place dangerous for his or life. Such places include, kitchen area, toilets, swimming pools. Of recent, one of Uganda’s miniters lost his twins to drowning.This happened because the parent/ guardian of the children were not alerted at the time the children reached the swimming pool at home which is so sad.It is important that a system is developed to help the parents and guardians of infants at home monitor the movements of their children.An RFID- based CMS has been developed for this cause. The system will monitor a child’s movements in the home and alert the parents/guardian as soon the child reaches the vicinity of a dangerous area.
+
+            </p>
+            <h3>Significance of the system</h3>
+            <p class="text">
+              The system is real time and therefore it will help parents/guardians rescue their children from being badly injured. The following functionalities help the parents/guardiandians rescue their children from danger orveven losing their lives.
+            </p>
+             <ul>
+              <li>Detecting a child with an RFID tag.</li>
+              <li>Triggering the alarm buzzer.</li>
+              <li>Sending an aleret SMS message to the parent/guardian</li>
+              <ul>  
+                </p>
+             <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">How it works</h2>
+            <hr>
+            <p class="text">
+              The RFID reader is placed into the target room/area and RFID tag is attached to the infant. Whenever an infant  moves to the target room/area, the tag and reader communication will occur and automatically SMS will sent to their parents and also the alerting system will activate. To avoid the infants in a home from being burnt or injured, the main objective of child monitoring system is to effectively integrate a system that could monitor infants through information technology by using Radio Frequency Identification (RFID) technology, GSM module, and an Active RFID module embedded, to ensure the complete safety of the infant.The Architecture of the RFID based child monitoring system installed in the target room of the house. It comprises of a module which senses the unique identification number (UID) from the tag attached an infant .
+            </p>
+          </div>
+        </div>
+        <!--End Text Only-->
+        <!--Start Text with Gallery-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Hardware components used</h2>
+            <hr>
+            <h3>Microcontroller(Arduino Uno)</h3>
+            <p class="text">
+             This section forms the control unit of the whole project. This section basically consists of a Micro controller with its associated circuitry like Pull up resistors and so on. The Micro controller forms the heart of the project because it controls the devices being interfaced and communicates with the devices according to the program being written.
+             <h3> RFID Reader</h3>
+             <p class="text">
+           This module comprises of an Arduino microprocessor which is attached with a and an RFID reader. This module takes UID from RFID reader and sends it to the Arduino Module .The reader used here is a  RFID reader. RFID tags and readers have to be tuned to the same frequency in order to communicate.
+            </p>
+            <h3>Passive RFID tag</h3>
+             <p class="text">
+            RFID tags contain a chip which holds an electronic product code (EPC) number that points to additional data detailing the contents of the package. Readers identify the UID numbers at a distance, without involving physical contact. This the active RFID tag that will be attached to the infant such that if the infant goes to the kitchen,an alarming signal will be sent to the micro controller.
+            </p>
+            <h3>Alarm System module</h3>
+            <p class="text">
+            This system comprises of an alarm buzzer. It will trigger the alarm if the infant appears in the target room and the RFID reader identifies the UID number.
+            </p>
+            <h3>GSM SIM800L</h3>
+             <p class="text">
+            GSM SIM800L can be used to send SMS, receive SMS and make the calls. The basic GSM operations are done with the help of AT commands. The following are the AT commands used in our system:
+           <p class="text"> AT: It is used to test the condition of the GSM. It responds with an OK if everything is fine or an ERROR in case of error.
+            <p class="text"> AT+CMGF=1: Command to set the communication to Text Mode.
+             <p class="text"> AT+CMGS=[Mobile Number]: Command to send SMS from the GSM Modem to particular number as mentioned in command.
+            </p>
+            <h3>Battery</h3>
+             <p class="text">
+            Battery: The battery powers on the Arduino Uno board and the GSM module
+            </p>
+            <h3>Jumper wires</h3>
+             <p class="text">
+            These wires are used to make connections for the system
+            </p>
+             
+          </div>
+        </div>
+        <div class="gallery">
+          <a href="javascript:void(0)" class="flex-column"><img src="img/Arduino Uno.png">
+            <div>Microntroller</div>
+          </a>
+          <a href="javascript:void(0)" class="flex-column"><img src="img/RFID reader.png">
+            <div>RFID Reader</div>
+          </a>
+          <a href="javascript:void(0)" class="flex-column"><img src="img/RFID tag.png">
+            <div>RFID tag</div>
+          </a>
+          <a href="javascript:void(0)" class="flex-column"><img src="img/GSM SIM800L.png">
+            <div>GSM Module</div>
+          </a>
+          <a href="javascript:void(0)" class="flex-column"><img src="img/Buzzer.png">
+            <div>Buzzer</div>
+          </a>
+          <a href="javascript:void(0)" class="flex-column"><img src="img/Jumper wires.png">
+            <div>Jumper wires</div>
+          </a>
+          <a href="javascript:void(0)" class="flex-column"><img src="img/Batterry.png">
+            <div>Battery</div>
+          </a>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+              <h3>System Architecture</h3>
+               <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/Architecture.JPG">
+            <p class="image-caption">Architecture of the system</p>
+          </div>
+            </p>
+          </div>
+        </div>
+        <!--End Text with Gallery-->
+    
+        <!--Start Text with Images and Image buttons-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Results of the System</h2>
+            <hr>
+            <p class="text">
+              The following screenshots show the functionalities of the RFID based Child Monitoring System
+            </p>
+          </div>
+        </div>
+        <div class="flex-row-space-between">
+          <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/alert.png">
+            <p class="image-caption"> A sreenshot of a child being detected</p>
+          </div>
+          <div class="flex-item flex-column">
+            <a href="https://github.com/yenchiah/project-website-template" target="_blank" class="image max-width-400">
+              <img src="img/SMS.png">
+            </a>
+            <p class="image-caption">A screenshot of an alert SMS message sent to the parent</p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+              <h2 class="add-top-margin">Conclusion</h2>
+              After testing the RFID-based CMS, the following conclusions can be stated.
+          </div>
+          <div class="flex-item flex-column">
+            <p class="text">
+              The RFID-based CMS triggers an alarm and sends an SMS message to the parent/guardian as soon as the child reaches the vicinity of the area with the RFID reader
+          </div>
+          <div class="flex-item flex-column">
+            <p class="text">
+              The system requires that an RFID reader is placed in every area that restricted to the child. This is not efficient enough. We plan to use a Geo-fencing technology to create a virtual border around a single point of the restricted area which will help limit the need more many sensors.
+          </div>
+        </div>
+        <!--End Text with Images and Image buttons-->
+        <!--Start Text around Images-->
+    </div>
+
+  </div>
+</body>
+
+</html>
